@@ -2,6 +2,7 @@ import React from 'react'
 import './footer.css'
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
+import blobImage from '/src/assets/blobanimation.svg';
 
 export default function Footer() {
     const [ref, InView] = useInView({
@@ -9,7 +10,7 @@ export default function Footer() {
         threshold:0.2
       })
   return (
-      <footer>
+      <div className='footer' style={{backgroundImage: `url(${blobImage})`}}>
         
           <div className='footer-main-container'>
           <div className='sub-footer-container-1'>
@@ -59,6 +60,6 @@ export default function Footer() {
               </motion.div>
               
               </div>
-    </footer>
+    </div>
   )
 }

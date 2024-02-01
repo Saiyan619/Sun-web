@@ -1,10 +1,10 @@
-footer{
+.footer{
     background-color: black;
     color: white;
     height: 100%;
     color: wheat;
     background-attachment: fixed;
-    background-image: url(blobanimation.svg);
+    /* background-image: url(/blobanimation.svg); */
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -12,7 +12,7 @@ footer{
     justify-content: flex-end;
     padding: 50px;
 }
-
+/* blobanimation.svg */
 .footer-main-container{
     height: 100%;
 }
