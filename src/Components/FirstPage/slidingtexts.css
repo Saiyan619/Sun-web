@@ -1,0 +1,37 @@
+.slide-container{
+    margin-bottom: 20px;
+    }
+    .slide-contents{
+       display: flex;
+       
+    }
+    
+    .slide-text{
+        font-size: 100px;
+        display: flex;
+    }
+    .sub-slide-contents{
+        display: flex;  
+        gap: 20px;
+        align-items: center;  
+    }
+    h2{
+        font-size: 100px;
+    }
+    .circle{
+        background-color: orangered;
+        width: 60px;
+        height: 60px;
+        border-radius: 1000px;
+    }
+    @media screen and (max-width:800px) {
+        h2{
+            font-size: 50px;
+        }
+        .circle{
+            background-color: orangered;
+            width: 30px;
+            height: 30px;
+            border-radius: 1000px;
+        }
+    }
