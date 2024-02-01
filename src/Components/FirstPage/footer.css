@@ -4,7 +4,7 @@ footer{
     height: 100%;
     color: wheat;
     background-attachment: fixed;
-    background-image: url(./blobanimation.svg);
+    background-image: url(blobanimation.svg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
