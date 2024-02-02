@@ -2,7 +2,7 @@ import React from 'react'
 import './footer.css'
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import blobImage from '/src/assets/blobanimation.svg';
+import blobImage from '/blobanimation.svg';
 
 export default function Footer() {
     const [ref, InView] = useInView({
